@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+#require "bundler/setup"
+#require './config/environment'
+
+
+#puts "Welcome to the Program"
+
+#ActiveRecord::Base.logger = Logger.new(STDOUT)
+#ActiveRecord::Base.logger = Log4r::Logger.new("Application Log")
+#require "irb"
+#IRB.start
