@@ -8,7 +8,7 @@ load './Rakefile'
 RSpec.configure do |config|
   config.run_all_when_everything_filtered = true
   config.filter_run :focus
-  #config.log_level = :debug                            # this is trying to get the logger to work
+  config.log_level = :debug                            # this is trying to get the logger to work
 
   config.before(:suite) do
     DatabaseCleaner.strategy = :transaction
